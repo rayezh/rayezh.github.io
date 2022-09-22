@@ -112,6 +112,12 @@ a:hover {
   .intro h1 span {
     font-size: 20px; }
 
+.news .news-list {
+  margin-left: 0px; }
+    .news .award-list li:first-child {
+      font-size: 0.9375em;
+      color: #8c8c8c; }
+
 .work .work-list {
   margin-left: 0px; }
   .work .work-list li {
