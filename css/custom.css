@@ -4,6 +4,7 @@
  */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display SC", serif;
+  font-size: 5em;
   color: #333333; }
 
 a, p, li {
@@ -26,7 +27,7 @@ a:hover {
   max-width: 662px;
   padding: 0 20px; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) 
   .intro img {
     display: block;
     margin-left: auto;
@@ -109,7 +110,7 @@ a:hover {
     z-index: -1;
     color: #f4f4f4; }
   .intro h1 span {
-    font-size: 47px; }
+    font-size: 20px; }
 
 .work .work-list {
   margin-left: 0px; }
@@ -131,6 +132,22 @@ a:hover {
   .award .award-list li:first-child {
     font-size: 0.9375em;
     color: #8c8c8c; }
+
+.publication .publication-list {
+  margin-left: 0px; }
+  .publication .publication-list li {
+    list-style: none;
+    font-size: 0.9375em;
+    color: #8c8c8c; }
+    .publication .publication-list li a {
+      padding-bottom: 5px;
+      font-size: 1.1875em;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid #b3b3b3; }
+      .publication .publication-list li a:hover {
+        border-bottom: 1px solid #333333; }
+
 
 .skills .skill-list {
   margin-left: 0px; }
